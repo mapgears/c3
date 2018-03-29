@@ -3564,9 +3564,11 @@
 
                     for (j = 0; j < length; j++) {
                         targets[i].values[j].index = tail + j;
+                        /*
                         if (!$$.isTimeSeries()) {
                             targets[i].values[j].x = tail + j;
                         }
+                        */
                     }
                     t.values = t.values.concat(targets[i].values);
 
